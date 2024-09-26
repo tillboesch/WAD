@@ -6,8 +6,8 @@ body {
 }
 
 .header {
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
+    padding-top: .5em;
+    padding-bottom: .5em;
     border: 1px solid #646174;
     background-color: #a2ccea;
     box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
@@ -37,12 +37,13 @@ nav a {
 
 main {
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
     align-items: center;
 }
 
 .post {
-    width: 80%;
+    width: 60%;
     border: 1px solid #ddd;
     margin: 10px;
     padding: 10px;
@@ -52,12 +53,35 @@ main {
     background-color: #ccc;
 }
 
+.post img {
+    max-width: 100%; /* Bildgröße an Post anpassen */
+}
+
+.post-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.post-user-icon {
+    width: 40px; /* Profilbildgröße */
+    height: 40px;
+    margin-right: 10px;
+}
+
 .like-button {
-    background-color: #00f;
-    color: #fff;
-    padding: 5px;
+    background-color: transparent;
     border: none;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.like-icon {
+    width: 20px; /* Größe des Like-Icons */
+    height: 20px;
 }
 
 footer {
@@ -102,6 +126,23 @@ main {
     justify-content: center;
 }
 
+/* Graue Boxen links und rechts hinzugefügt */
+.side-column {
+    width: 10%;
+    background-color: #e0e0e0;
+    height: 100%;
+}
+
+/* Anpassung für kleinere Bildschirme */
+@media (max-width: 768px) {
+    .post {
+        width: 90%; /* Größe für kleinere Bildschirme */
+    }
+    
+    .side-column {
+        display: none; /* Boxen bei kleinen Bildschirmen entfernen */
+    }
+}
 /* Style for the post container */
 #postcontainer {
     margin: 20px auto;
