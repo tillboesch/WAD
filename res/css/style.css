@@ -105,31 +105,21 @@ main {
 
 /* Style for the post container */
 #postcontainer {
-    /* Centers the container horizontally */
-    margin: 20px auto;
 
-    /* Controls the width of the container */
+    margin: 20px auto;
     width: 50%;
     max-width: 600px;
-
-    /* Adds padding inside the container */
     padding: 20px;
-
-    /* Adds a grey background color */
     background-color: #f0f0f0;
-
-    /* Rounds the corners */
     border-radius: 8px;
-
-    /* Adds a slight shadow to the container */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 
     /* Flexbox to center the content inside the container */
     display: flex;
-    flex-direction: column; /* Arrange items in a column */
-    justify-content: center; /* Center vertically */
-    align-items: center; /* Center horizontally */
-    height: 300px; /* Set a height to the container, adjust as necessary */
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    height: 300px;
 }
 
 /* Additional styles for form elements */
