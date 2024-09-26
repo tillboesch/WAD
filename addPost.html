@@ -13,21 +13,22 @@
 
 <body>
 
-    <header class="header"></header>
-        <ul class="nav">
-            <li><a href="index.html">Home</a></li>
-        </ul>
-
-        <a class="logo" href="#"><img src="res/images/me.png" width="50" height="50" alt="My picture"></a>
+    <header>
+        <nav>
+            <a href="index.html" id="home-link">Home</a>
+            <img src="res/images/user-icon.png" alt="User Profile" class="profile-icon">
+        </nav>
     </header>
-
-    <div class="post-container">
-        <h2>Create a New Post</h2>
-        <form class="post-form" action="#" method="POST" enctype="multipart/form-data">
+<br>
+    <div id="postcontainer">
+        
+        <form id="post-form" action="#" method="POST" enctype="multipart/form-data">
             <textarea name="post_content" placeholder="text area" required></textarea>
+            <br>
             <input type="file" name="post_image" accept="image/*">
-            <button type="submit">Create Post</button>
+            <br>
         </form>
+        <button onclick="document.location='index.html'">Create Post</button>
     </div>
 
 </body>
