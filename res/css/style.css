@@ -1,4 +1,3 @@
-/* Basic styling */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -51,10 +50,11 @@ main {
     flex-direction: column;
     align-items: center;
     background-color: #ccc;
+    border-radius: 15px;
 }
 
 .post img {
-    max-width: 100%; /* Bildgröße an Post anpassen */
+    max-width: 100%;
 }
 
 .post-header {
@@ -65,7 +65,7 @@ main {
 }
 
 .post-user-icon {
-    width: 40px; /* Profilbildgröße */
+    width: 40px; 
     height: 40px;
     margin-right: 10px;
 }
@@ -76,11 +76,14 @@ main {
     cursor: pointer;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    width: auto;
+    margin-top: 10px;
+    align-self: flex-start;
 }
 
 .like-icon {
-    width: 20px; /* Größe des Like-Icons */
+    width: 20px;
     height: 20px;
 }
 
@@ -93,7 +96,7 @@ footer {
     bottom: 0;
 }
 
-/* Pseudo-class and Pseudo-element */
+
 #home-link:hover::before {
     content: "Home -> ";
     color: red;
@@ -124,26 +127,38 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
 }
 
-/* Graue Boxen links und rechts hinzugefügt */
 .side-column {
     width: 10%;
     background-color: #e0e0e0;
-    height: 100%;
+    height: 80vh;
+    position: fixed;
+    top: 0;
+    border-radius: 15px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
-/* Anpassung für kleinere Bildschirme */
+.side-column.left {
+    left: 10px; 
+}
+
+.side-column.right {
+    right: 10px;
+}
+
 @media (max-width: 768px) {
     .post {
-        width: 90%; /* Größe für kleinere Bildschirme */
+        width: 90%; 
     }
     
     .side-column {
-        display: none; /* Boxen bei kleinen Bildschirmen entfernen */
+        display: none;
     }
 }
-/* Style for the post container */
+
 #postcontainer {
     margin: 20px auto;
     width: 50%;
@@ -152,8 +167,6 @@ main {
     background-color: #f0f0f0;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-
-    /* Flexbox to center the content inside the container */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -169,8 +182,6 @@ main {
     background-color: #f0f0f0;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-
-    /* Flexbox to center the content inside the container */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -178,7 +189,6 @@ main {
     height: 300px;
 }
 
-/* Additional styles for form elements */
 #post-form textarea {
     width: 100%;
     height: 150px;
@@ -208,7 +218,7 @@ button:hover {
     background-color: #0056b3;
 }
 
-/* Additional styles for the login form */
+
 #loginForm label {
     display: block;
     margin-bottom: 5px;
