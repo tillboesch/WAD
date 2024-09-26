@@ -1,0 +1,93 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ccc;
+    padding: 10px;
+}
+
+nav a {
+    padding: 10px;
+    text-decoration: none;
+}
+
+#home-link:hover, #addpost-link:hover {
+    background-color: #ddd;
+}
+
+.profile-icon {
+    width: 40px;
+    height: 40px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post {
+    width: 80%;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.like-button {
+    background-color: #00f;
+    color: #fff;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    background-color: #ccc;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Pseudo-class and Pseudo-element */
+#home-link:hover::before {
+    content: "Home -> ";
+    color: red;
+}
+
+/* Descendant Selector */
+nav a {
+    color: black;
+}
+
+/* Child Selector */
+nav > a {
+    font-weight: bold;
+}
+
+/* Sibling Selectors */
+header + main {
+    margin-top: 20px;
+}
+
+main ~ footer {
+    margin-top: 20px;
+}
+
+/* Flexbox layout for responsiveness */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
