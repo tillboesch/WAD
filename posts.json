@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "author": "Testname",
+        "date": "2022-10-01",
+        "description": "TestDescription",
+        "image": "res/images/tartu2022.jpg"
+    },
+    {
+        "id": 2,
+        "author": "Testname2",
+        "date": "2022-10-02",
+        "description": "TestDescription2",
+        "image": "res/images/tartu2.jpg"
+    },
+    {
+        "id": 3,
+        "author": "Testname",
+        "date": "2022-10-01",
+        "description": "TestDescription",
+        "image": null
+    },
+    {
+        "id": 4,
+        "author": "Testname2",
+        "date": "2022-10-02",
+        "description": "TestDescription2",
+        "image": "res/images/tartu2.jpg"
+    },
+    {
+        "id": 5,
+        "author": "Testname",
+        "date": "2022-10-01",
+        "description": "TestDescription",
+        "image": "res/images/tartu2022.jpg"
+    },
+    {
+        "id": 6,
+        "author": "Testname2",
+        "date": "2022-10-02",
+        "description": "TestDescription2",
+        "image": "res/images/tartu2.jpg"
+    },
+    {
+        "id": 7,
+        "author": "Testname",
+        "date": "2022-10-01",
+        "description": "TestDescription",
+        "image": "res/images/tartu2022.jpg"
+    },
+    {
+        "id": 8,
+        "author": "Testname2",
+        "date": "2022-10-02",
+        "description": "TestDescription2",
+        "image": "res/images/tartu2.jpg"
+    },
+    {
+        "id": 9,
+        "author": "Testname",
+        "date": "2022-10-01",
+        "description": "TestDescription",
+        "image": "res/images/tartu2022.jpg"
+    },
+    {
+        "id": 10,
+        "author": "Testname2",
+        "date": "2022-10-02",
+        "description": "TestDescription2",
+        "image": "res/images/tartu2.jpg"
+    }
+]
