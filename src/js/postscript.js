@@ -64,3 +64,20 @@ function displayPosts(posts) {
     });
 }
 }
+
+// open dropdown
+const profileIcon = document.getElementById('profile-icon');
+const dropdownContent = document.getElementById('dropdown-content');
+
+profileIcon.addEventListener('click', () => {
+    dropdownContent.style.display = dropdownContent.style.display === 'block' ? 'none' : 'block';
+});
+
+// close dropdown
+window.addEventListener('click', event => {
+    if (!event.target.matches('#profile-icon')) {
+        if (dropdownContent.style.display === 'block') {
+            dropdownContent.style.display = 'none';
+        }
+    }
+});
