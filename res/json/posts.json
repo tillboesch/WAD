@@ -1,9 +1,9 @@
 [
     {
         "id": 1,
-        "author": "Testname",
+        "author": "Testname1",
         "date": "2022-10-01",
-        "description": "TestDescription",
+        "description": "TestDescription1",
         "image": "res/images/tartu2022.jpg"
     },
     {
@@ -15,58 +15,58 @@
     },
     {
         "id": 3,
-        "author": "Testname",
+        "author": "Testname3",
         "date": "2022-10-01",
-        "description": "TestDescription",
+        "description": "TestDescription3",
         "image": null
     },
     {
         "id": 4,
-        "author": "Testname2",
+        "author": "Testname4",
         "date": "2022-10-02",
-        "description": "TestDescription2",
+        "description": "TestDescription4",
         "image": "res/images/tartu2.jpg"
     },
     {
         "id": 5,
-        "author": "Testname",
+        "author": "Testname5",
         "date": "2022-10-01",
-        "description": "TestDescription",
+        "description": "TestDescription5",
         "image": "res/images/tartu2022.jpg"
     },
     {
         "id": 6,
-        "author": "Testname2",
+        "author": "Testname6",
         "date": "2022-10-02",
-        "description": "TestDescription2",
+        "description": "TestDescription6",
         "image": "res/images/tartu2.jpg"
     },
     {
         "id": 7,
-        "author": "Testname",
+        "author": "Testname7",
         "date": "2022-10-01",
-        "description": "TestDescription",
+        "description": "TestDescription7",
         "image": "res/images/tartu2022.jpg"
     },
     {
         "id": 8,
-        "author": "Testname2",
+        "author": "Testname8",
         "date": "2022-10-02",
-        "description": "TestDescription2",
+        "description": "TestDescription8",
         "image": "res/images/tartu2.jpg"
     },
     {
         "id": 9,
-        "author": "Testname",
+        "author": "Testname9",
         "date": "2022-10-01",
-        "description": "TestDescription",
+        "description": "TestDescription9",
         "image": "res/images/tartu2022.jpg"
     },
     {
         "id": 10,
-        "author": "Testname2",
+        "author": "Testname10",
         "date": "2022-10-02",
-        "description": "TestDescription2",
+        "description": "TestDescription10",
         "image": "res/images/tartu2.jpg"
     }
 ]
