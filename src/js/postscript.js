@@ -1,4 +1,7 @@
-fetch('https://api.npoint.io/5307d739dbe03bcbb149')
+window.onload = function(){
+
+//fetch('https://api.npoint.io/5307d739dbe03bcbb149')
+fetch('res/json/posts.json')
     .then(response => response.json())
     .then(data => {
         displayPosts(data);
@@ -59,4 +62,5 @@ function displayPosts(posts) {
 
         main.appendChild(postElement);
     });
+}
 }
